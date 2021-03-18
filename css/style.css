@@ -77,6 +77,7 @@ form {
 .sosmed a {
   color: #dbf9f4;
   text-decoration: none;
+  font-size: 14px;
 }
 /* utility */
 
@@ -98,27 +99,22 @@ form {
   padding: 10px;
 }
 
-
-
 /* responsive */
 @media (min-width: 768px) {
   .navbar {
     padding: 10px 90px;
   }
-  .navbar a{
+  .navbar a {
     font-size: 18px;
   }
 
   .container {
     flex-wrap: nowrap;
-    
   }
-  .deskripsi{
-    flex="2"
-  }
+
   .deskripsi p {
-  font-size: 20px;
-}
+    font-size: 20px;
+  }
   .photo {
     width: 700px;
     padding: 10px 50px;
@@ -127,7 +123,6 @@ form {
   .photo-education {
     order: 2;
   }
-
 
   .deskripsi-education {
     order: 1;
@@ -158,4 +153,7 @@ form {
     font-size: 22px;
   }
 
+  .sosmed a {
+    font-size: 18px;
+  }
 }
