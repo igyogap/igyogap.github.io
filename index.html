@@ -2,231 +2,293 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 
-  <!-- My CSS -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-
-  <title>My Portfolio</title>
+    <title>Portfolio Yoga Pramana</title>
 </head>
 
 <body>
-  <!-- Navbar -->
-
-  <nav class="navbar navbar-expand-lg navbar-light sticky-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">IGYP</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
-        <div class="navbar-nav ml-auto">
-          <a class="nav-link" href="#home">Home</a>
-          <a class="nav-link" href="#profile">Profile</a>
-          <a class="nav-link" href="#education">Education</a>
-          <a class="nav-link" href="#skill">Skill</a>
-          <a class="nav-link" href="#contact">Contact</a>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" style="font-size: 25px;" href="#">Yoga Pramana</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav ">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="#education">Education</a>
+                    <a class="nav-link" href="#skill">Skill</a>
+                    <a class="nav-link" href="#contact">Contact</a>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </nav>
+    </nav>
+    <!-- navbar -->
 
-  <!-- akhir navbar -->
+    <!-- jumbotron -->
+    <section class="jumbotron text-center" id="home">
+        <img src="img/1x1.png" alt="" style="width: 200px;" class="rounded-circle">
+        <h1 class="display-4">Yoga Pramana</h1>
+        <p class="lead">Web Developer | Graphic Design</p>
 
-  <!-- Jumbotron -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#E0EAEE" fill-opacity="1"
+                d="M0,288L40,266.7C80,245,160,203,240,181.3C320,160,400,160,480,181.3C560,203,640,245,720,266.7C800,288,880,288,960,261.3C1040,235,1120,181,1200,165.3C1280,149,1360,171,1400,181.3L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+            </path>
+        </svg>
+    </section>
 
-  <div class="jumbotron jumbotron-fluid" id="home">
-    <div class="container">
-      <h1 class="display-4">MY <br> PORTFOLIO</h1>
-    </div>
-  </div>
+    <!-- akkhir jumbotron -->
 
-  <!-- akhir jumbotron -->
-
-  <!-- Photo profile -->
-
-  <div class="row photo-profile justify-content-center">
-    <img src="img/1x1.png" class="rounded-circle " alt="...">
-  </div>
-  <div class="row photo-profile justify-content-center">
-    <h1>I Gede Yoga Pramana</h1>
-  </div>
-
-  <!-- akhir photo profile -->
-
-  <!-- Profile -->
-
-  <div class="row profile content" id="profile">
-    <div class="container">
-      <div class="col-lg">
-        <div class="row ">
-          <div class="col-lg-6">
-            <div class="text float-left">
-              <h1>PROFILE</h1>
-              <p>My name is yoga, i'm 22 years old, i'm a graduated
-                student of ITB Stikom Bali, I learn about
-                multimedia and web programming</p>
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="photo-about">
+                <img src="img/profile.jpg" alt="" class="photo rounded">
             </div>
-          </div>
-          <div class="col-lg  ml-auto">
-            <div class="photo ">
-              <img class="auto" src="img/1x1.png" alt="">
+            <div class="deskripsi-about deskripsi">
+                <h3 class="judul">About</h3>
+                <p>My name is yoga, i'm 22 years old, i'm a graduated student of ITB Stikom
+                    Bali, I learn about
+                    multimedia and web
+                    programming</p>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#e6fdff" fill-opacity="1"
+                d="M0,256L40,240C80,224,160,192,240,192C320,192,400,224,480,240C560,256,640,256,720,218.7C800,181,880,107,960,106.7C1040,107,1120,181,1200,202.7C1280,224,1360,192,1400,176L1440,160L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+            </path>
+        </svg>
+    </section>
+    <!-- akhir about -->
 
-  <!-- akhir profile -->
-
-  <!-- Education -->
-
-  <div class="row education content" id="education">
-    <div class="container">
-      <div class="col-lg">
-        <div class="row">
-          <div class="col-lg  ">
-            <div class="photo ">
-              <img src="img/1x1.png" alt="">
+    <!-- Education -->
+    <section class="education" id="education">
+        <div class="container">
+            <div class="photo-education">
+                <img src="img/education.jpg" alt="" class="photo rounded">
             </div>
-          </div>
-          <div class="col-lg ">
-            <div class="text ">
-              <h1>EDUCATION</h1>
-              <p class="tahun"> <b> 2005-2011 </b></p>
-              <p> SD N 1 Pejeng</p>
-              <p class="tahun"><b>2011-2014</b></p>
-              <p> SMP N 3 Tampaksiring</p>
-              <p class="tahun"><b>2014-2017</b></p>
-              <p> SMA N 1 Sukawati</p>
-              <p class="tahun"><b>2017-2021</b></p>
-              <p> ITB STIKOM Bali</p>
+            <div class="deskripsi-education deskripsi">
+                <h3 class="judul">Education</h3>
+                <h4> <b> 2011-2014</b></h4>
+
+                <p> SMP N 3 Tampaksiring</p>
+
+                <h4> <b> 2014-2017</b></h4>
+
+                <p> SMA N 1 Sukawati</p>
+                <h4> <b> 2017-2021</b></h4>
+
+                <p>Institut Teknologi dan Bisnis (ITB) STIKOM Bali</p>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#E0EAEE" fill-opacity="1"
+                d="M0,96L30,128C60,160,120,224,180,224C240,224,300,160,360,149.3C420,139,480,181,540,213.3C600,245,660,267,720,240C780,213,840,139,900,133.3C960,128,1020,192,1080,229.3C1140,267,1200,277,1260,234.7C1320,192,1380,96,1410,48L1440,0L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z">
+            </path>
+        </svg>
+    </section>
+    <!-- akhir Education -->
 
-  <!-- akhir Education -->
-
-  <!-- Skill -->
-
-  <div class="row skill content" id="skill">
-    <div class="container">
-      <div class="col-lg">
-        <div class="row ">
-          <div class="col-lg-6">
-            <div class="text">
-              <h1>SKILL</h1>
-              <p class="tahun"> <b> PHOTOSHOP </b></p>
-              <img class="rate" src="img/4.png" alt=""><br>
-              <p class="tahun"><b>ILUSTRATOR</b></p>
-              <img class="rate" src="img/4.png" alt=""><br>
-              <p class="tahun"><b>PHP</b></p>
-              <img class="rate" src="img/3.png" alt=""><br>
-              <p class="tahun"><b>HTML</b></p>
-              <img class="rate" src="img/4.png" alt=""><br>
-              <p class="tahun"><b>JS</b></p>
-              <img class="rate" src="img/3.png" alt=""><br>
+    <!-- Skill -->
+    <section class="skill" id="skill">
+        <div class="container">
+            <div class="photo-skill">
+                <img src="img/skill.JPG" alt="" class="photo rounded">
             </div>
-          </div>
-          <div class="col-lg  ml-auto">
-            <div class="photo ">
-              <img class="auto" src="img/1x1.png" alt="">
+
+            <div class="deskripsi-skill deskripsi">
+                <h3 class="judul">Skill</h3>
+                <p>HTML</p>
+                <div class="progress" style="background-color: #fff;">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 95%" aria-valuenow="95"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                </div><br>
+                <p>CSS</p>
+                <div class="progress" style="background-color: #fff;">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 85%" aria-valuenow="85"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                </div><br>
+                <p>Java Script</p>
+                <div class="progress" style="background-color: #fff;">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 65%" aria-valuenow="65"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                </div><br>
+                <p>PHP</p>
+                <div class="progress" style="background-color: #fff;">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 85%" aria-valuenow="85"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                </div><br>
+                <p>Adobe Photoshop</p>
+                <div class="progress" style="background-color: #fff;">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 90%" aria-valuenow="90"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                </div><br>
+                <p>Adobe Ilustrator</p>
+                <div class="progress" style="background-color: #fff;">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                </div><br>
+                <p>Adobe Premiere</p>
+                <div class="progress " style="background-color: #fff;">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill=" #dbf9f4" fill-opacity="1"
+                d="M0,288L30,272C60,256,120,224,180,213.3C240,203,300,213,360,213.3C420,213,480,203,540,176C600,149,660,107,720,90.7C780,75,840,85,900,112C960,139,1020,181,1080,181.3C1140,181,1200,139,1260,149.3C1320,160,1380,224,1410,256L1440,288L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z">
+            </path>
+        </svg>
+    </section>
+    <!-- akhir Skill -->
 
-  <!-- akhir Skill -->
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="deskripsi-contact deskripsi">
+                <h3 class="judul">Contact</h3>
 
-  <!-- Contact -->
-  <div class="text">
-    <h1 class="text-center">CONTACT ME</h1>
-  </div>
-  <div class="container contact " id="contact">
-    <div class="row justify-content-lg-center">
-      <div class="col-lg-10">
-        <form>
-          <div class="form-group">
-            <label for="name">FULL NAME</label>
-            <input type="text" class="form-control" id="name" placeholder="Input Full Name">
-          </div>
-          <div class="form-group">
-            <label for="Email">Email</label>
-            <input type="email" class="form-control" id="Email" placeholder="Input Email">
-          </div>
-          <div class="form-group">
-            <label for="message">Message</label>
-            <textarea class="form-control" id="message" rows="5" placeholder="Input Message"></textarea>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-  <!-- akhir contact -->
+                <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+                    <strong>Terima Kasih!</strong> Pesan Anda Sudah Kami Terima
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
 
-  <div class="footer">
-    <div class="row">
-      <div class="col-lg-3 ">
-        <a href="https://wa.me/6287861221154">
-          <img src="img/whatsapp.png" alt="">
-          yoga pramana
-        </a>
-      </div>
-      <div class="col-lg-3">
-        <a href="https://www.facebook.com/yoga.pramana.77964/">
-          <img src="img/fb.png" alt="">
-          yoga pramana
-        </a>
-      </div>
-      <div class="col-lg-3">
-        <a href="https://www.instagram.com/igyogaa/">
-          <img src="img/ig.png" alt="">
-          igyogaa
-        </a>
-      </div>
-    </div>
-  </div>
+                <form name="contact-form">
+                    <div class="mb-3">
+                        <label for="name" class="form-label text-lg-start">Nama Lengkap</label>
+                        <input type="text" class="form-control" id="name" name="nama">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email </label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" name="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="floatingTextarea2">Pesan</label>
+                        <textarea class="form-control" id="floatingTextarea2" style="height: 100px"
+                            name="pesan"></textarea>
 
+                    </div>
 
+                    <button type="submit" class="btn btn-primary text-center btn-kirim">Kirim</button>
 
+                    <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+                        <span class="spinner-border spinner-border-sm  " role="status" aria-hidden="true"></span>
+                        Loading...
+                    </button>
+                </form>
+            </div>
+        </div>
 
+    </section>
+    <!-- akhir Contact -->
 
+    <!-- footer -->
+    <footer>
+        <div class="container-footer justify-content-around">
+            <div class="wa sosmed">
+                <a href="https://wa.me/6287861221154">
 
+                    <svg height="32px" viewBox="-23 -21 682 682.66669" width="32px" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#fff"
+                            d="m544.386719 93.007812c-59.875-59.945312-139.503907-92.9726558-224.335938-93.007812-174.804687 0-317.070312 142.261719-317.140625 317.113281-.023437 55.894531 14.578125 110.457031 42.332032 158.550781l-44.992188 164.335938 168.121094-44.101562c46.324218 25.269531 98.476562 38.585937 151.550781 38.601562h.132813c174.785156 0 317.066406-142.273438 317.132812-317.132812.035156-84.742188-32.921875-164.417969-92.800781-224.359376zm-224.335938 487.933594h-.109375c-47.296875-.019531-93.683594-12.730468-134.160156-36.742187l-9.621094-5.714844-99.765625 26.171875 26.628907-97.269531-6.269532-9.972657c-26.386718-41.96875-40.320312-90.476562-40.296875-140.28125.054688-145.332031 118.304688-263.570312 263.699219-263.570312 70.40625.023438 136.589844 27.476562 186.355469 77.300781s77.15625 116.050781 77.132812 186.484375c-.0625 145.34375-118.304687 263.59375-263.59375 263.59375zm144.585938-197.417968c-7.921875-3.96875-46.882813-23.132813-54.148438-25.78125-7.257812-2.644532-12.546875-3.960938-17.824219 3.96875-5.285156 7.929687-20.46875 25.78125-25.09375 31.066406-4.625 5.289062-9.242187 5.953125-17.167968 1.984375-7.925782-3.964844-33.457032-12.335938-63.726563-39.332031-23.554687-21.011719-39.457031-46.960938-44.082031-54.890626-4.617188-7.9375-.039062-11.8125 3.476562-16.171874 8.578126-10.652344 17.167969-21.820313 19.808594-27.105469 2.644532-5.289063 1.320313-9.917969-.664062-13.882813-1.976563-3.964844-17.824219-42.96875-24.425782-58.839844-6.4375-15.445312-12.964843-13.359374-17.832031-13.601562-4.617187-.230469-9.902343-.277344-15.1875-.277344-5.28125 0-13.867187 1.980469-21.132812 9.917969-7.261719 7.933594-27.730469 27.101563-27.730469 66.105469s28.394531 76.683594 32.355469 81.972656c3.960937 5.289062 55.878906 85.328125 135.367187 119.648438 18.90625 8.171874 33.664063 13.042968 45.175782 16.695312 18.984374 6.03125 36.253906 5.179688 49.910156 3.140625 15.226562-2.277344 46.878906-19.171875 53.488281-37.679687 6.601563-18.511719 6.601563-34.375 4.617187-37.683594-1.976562-3.304688-7.261718-5.285156-15.183593-9.253906zm0 0"
+                            fill-rule="evenodd" />
+                    </svg>
+                    Whats App
+                </a>
+            </div>
+            <div class="ig sosmed">
+                <a href="https://www.instagram.com/igyogaa/">
+                    <svg height="32px" viewBox="0 0 511 511.9" width="32px" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#fff"
+                            d="m510.949219 150.5c-1.199219-27.199219-5.597657-45.898438-11.898438-62.101562-6.5-17.199219-16.5-32.597657-29.601562-45.398438-12.800781-13-28.300781-23.101562-45.300781-29.5-16.296876-6.300781-34.898438-10.699219-62.097657-11.898438-27.402343-1.300781-36.101562-1.601562-105.601562-1.601562s-78.199219.300781-105.5 1.5c-27.199219 1.199219-45.898438 5.601562-62.097657 11.898438-17.203124 6.5-32.601562 16.5-45.402343 29.601562-13 12.800781-23.097657 28.300781-29.5 45.300781-6.300781 16.300781-10.699219 34.898438-11.898438 62.097657-1.300781 27.402343-1.601562 36.101562-1.601562 105.601562s.300781 78.199219 1.5 105.5c1.199219 27.199219 5.601562 45.898438 11.902343 62.101562 6.5 17.199219 16.597657 32.597657 29.597657 45.398438 12.800781 13 28.300781 23.101562 45.300781 29.5 16.300781 6.300781 34.898438 10.699219 62.101562 11.898438 27.296876 1.203124 36 1.5 105.5 1.5s78.199219-.296876 105.5-1.5c27.199219-1.199219 45.898438-5.597657 62.097657-11.898438 34.402343-13.300781 61.601562-40.5 74.902343-74.898438 6.296876-16.300781 10.699219-34.902343 11.898438-62.101562 1.199219-27.300781 1.5-36 1.5-105.5s-.101562-78.199219-1.300781-105.5zm-46.097657 209c-1.101562 25-5.300781 38.5-8.800781 47.5-8.601562 22.300781-26.300781 40-48.601562 48.601562-9 3.5-22.597657 7.699219-47.5 8.796876-27 1.203124-35.097657 1.5-103.398438 1.5s-76.5-.296876-103.402343-1.5c-25-1.097657-38.5-5.296876-47.5-8.796876-11.097657-4.101562-21.199219-10.601562-29.398438-19.101562-8.5-8.300781-15-18.300781-19.101562-29.398438-3.5-9-7.699219-22.601562-8.796876-47.5-1.203124-27-1.5-35.101562-1.5-103.402343s.296876-76.5 1.5-103.398438c1.097657-25 5.296876-38.5 8.796876-47.5 4.101562-11.101562 10.601562-21.199219 19.203124-29.402343 8.296876-8.5 18.296876-15 29.398438-19.097657 9-3.5 22.601562-7.699219 47.5-8.800781 27-1.199219 35.101562-1.5 103.398438-1.5 68.402343 0 76.5.300781 103.402343 1.5 25 1.101562 38.5 5.300781 47.5 8.800781 11.097657 4.097657 21.199219 10.597657 29.398438 19.097657 8.5 8.300781 15 18.300781 19.101562 29.402343 3.5 9 7.699219 22.597657 8.800781 47.5 1.199219 27 1.5 35.097657 1.5 103.398438s-.300781 76.300781-1.5 103.300781zm0 0" />
+                        <path fill="#fff"
+                            d="m256.449219 124.5c-72.597657 0-131.5 58.898438-131.5 131.5s58.902343 131.5 131.5 131.5c72.601562 0 131.5-58.898438 131.5-131.5s-58.898438-131.5-131.5-131.5zm0 216.800781c-47.097657 0-85.300781-38.199219-85.300781-85.300781s38.203124-85.300781 85.300781-85.300781c47.101562 0 85.300781 38.199219 85.300781 85.300781s-38.199219 85.300781-85.300781 85.300781zm0 0" />
+                        <path fill="#fff"
+                            d="m423.851562 119.300781c0 16.953125-13.746093 30.699219-30.703124 30.699219-16.953126 0-30.699219-13.746094-30.699219-30.699219 0-16.957031 13.746093-30.699219 30.699219-30.699219 16.957031 0 30.703124 13.742188 30.703124 30.699219zm0 0" />
+                    </svg>
+                    Instagram
+                </a>
+            </div>
+            <div class="fb sosmed">
+                <a href="https://www.facebook.com/yoga.pramana.77964/">
+                    <?xml version="1.0" encoding="iso-8859-1"?>
+                    <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                    <svg version="1.1" width="32px" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
+                        style="enable-background:new 0 0 512 512;" xml:space="preserve">
 
+                        <path fill="#fff" d="M452,0H60C26.916,0,0,26.916,0,60v392c0,33.084,26.916,60,60,60h392c33.084,0,60-26.916,60-60V60
+                    			C512,26.916,485.084,0,452,0z M472,452c0,11.028-8.972,20-20,20H338V309h61.79L410,247h-72v-43c0-16.975,13.025-30,30-30h41v-62
+                    			h-41c-50.923,0-91.978,41.25-91.978,92.174V247H216v62h60.022v163H60c-11.028,0-20-8.972-20-20V60c0-11.028,8.972-20,20-20h392
+                    			c11.028,0,20,8.972,20,20V452z" />
 
+                    </svg>
 
+                    Facebook
+                </a>
+            </div>
+        </div>
+    </footer>
 
-  <!-- Optional JavaScript; choose one of the two! -->
+    <!-- akhir footrter -->
 
-  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-    crossorigin="anonymous"></script>
+    <!-- Optional JavaScript; choose one of the two! -->
 
-  <!-- Option 2: Separate Popper and Bootstrap JS -->
-  <!--
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
     -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyigUBMPAPWkkystPVDPdH05RzRtQgg_-ifNTYtbUucp8Wn7o0nYx8362_iWl4-EYf2/exec';
+        const form = document.forms['contact-form'];
+        const btnKirim = document.querySelector('.btn-kirim');
+        const btnLoading = document.querySelector('.btn-loading');
+        const myAlert = document.querySelector('.my-alert');
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+
+            // ketika tombol kirim di klik
+            // tampilkan tombol loading/ hilangkan tombol kirim
+            btnLoading.classList.toggle('d-none');
+            btnKirim.classList.toggle('d-none');
+
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+
+                    // tampilkan tombol kirim/ hilangkan tombol loading
+
+                    btnLoading.classList.toggle('d-none');
+                    btnKirim.classList.toggle('d-none');
+                    // tampilkan Alert
+                    myAlert.classList.toggle('d-none');
+
+                    // reset form
+                    form.reset();
+                    console.log('Success!', response)
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
 </body>
 
 </html>

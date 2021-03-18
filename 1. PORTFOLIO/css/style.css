@@ -1,0 +1,282 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+.navbar {
+  position: relative;
+  z-index: 2;
+}
+
+.navbar-brand {
+  font-family: viga;
+  font-size: 32px;
+}
+
+.nav-link {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* jumbotron */
+.jumbotron {
+  height: 400px;
+  background-image: url(../img/Jumbotron.png);
+  background-size: cover;
+  position: relative;
+}
+
+.jumbotron .container {
+  position: relative;
+  z-index: 1;
+}
+
+.jumbotron::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3));
+  position: absolute;
+  bottom: 0;
+}
+
+.jumbotron .display-4 {
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: white !important;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+}
+
+/* photo profile */
+.photo-profile img {
+  width: 200px;
+  height: 200px;
+  border: 10px solid white;
+  margin: -150px;
+  position: relative;
+  z-index: 1;
+}
+
+.photo-profile h1 {
+  margin-top: 60px;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+/* profile */
+
+.profile {
+  background-color: #45474c;
+}
+
+.text {
+  text-align: center;
+}
+
+.skill .text h1,
+.skill .text p,
+.profile .text h1,
+.profile .text p {
+  color: #e2e2e2;
+}
+
+.text h1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+
+.text p {
+  font-size: 16px;
+}
+
+.photo img {
+  width: 100%;
+  margin: 20px 0;
+}
+
+/* education */
+.education .photo {
+  margin-top: 500px;
+}
+
+.education .photo img {
+  margin-top: -100px;
+  border-radius: 20px;
+}
+
+.education .text {
+  margin-top: -900px;
+}
+
+/* skill */
+
+.skill {
+  background-color: #6e7e85;
+}
+
+.skill .rate {
+  margin-top: -20px;
+  width: 15%;
+}
+
+/* CONTACT ME */
+
+.contact {
+  background-color: #bbbac6;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.contact form {
+  margin: 20px 0;
+}
+
+.contact h1,
+.contact label {
+  margin-top: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* AKHIR CONTACT ME */
+
+/* Footer */
+.footer {
+  background-color: #45474c;
+  height: 152px;
+  margin-top: 100px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px rgba(white, white, white, 0.7);
+}
+
+.footer img {
+  width: 30px;
+  margin-left: 100px;
+}
+
+.footer .row .col-lg-3 {
+  margin-top: 10px;
+}
+
+/* Dekstop */
+
+@media (min-width: 992px) {
+  .navbar-brand,
+  .nav-link {
+    color: #ffffff !important;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #1d1b1b;
+    width: 50%;
+    padding-bottom: 5px;
+    margin: auto;
+    margin-bottom: -8px;
+  }
+
+  .jumbotron {
+    margin-top: -75px;
+    height: 600px;
+  }
+
+  .jumbotron .display-4 {
+    font-size: 64px;
+  }
+
+  .photo-profile img {
+    width: 300px;
+    height: 300px;
+    border: 20px solid white;
+    margin: -200px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .photo-profile h1 {
+    margin-top: 90px;
+    font-size: 50px;
+  }
+
+  .content {
+    margin: 40px 0;
+  }
+
+  .skill .text h1,
+  .skill .text p,
+  .profile .text h1,
+  .profile .text p {
+    text-align: left;
+  }
+
+  .text h1 {
+    font-size: 32px;
+    margin: 40px 0px;
+  }
+
+  .text p {
+    font-size: 20px;
+  }
+
+  .photo img {
+    width: 500px;
+    height: 500px;
+    margin: 0;
+  }
+
+  .profile .photo img,
+  .skill .photo img {
+    margin-left: 20px;
+  }
+
+  .education .text h1,
+  .education .text p {
+    text-align: right;
+  }
+
+  .education .photo {
+    margin-top: 0px;
+  }
+
+  .education .photo img {
+    margin-top: 0px;
+  }
+
+  .education .text {
+    margin-top: 0px;
+  }
+
+  .skill .rate {
+    float: left;
+    margin-top: -10px;
+    width: 20%;
+  }
+
+  .footer img {
+    width: 50px;
+  }
+
+  .footer .row .col-lg-3 {
+    margin-top: 50px;
+  }
+}
