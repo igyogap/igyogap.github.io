@@ -97,6 +97,7 @@ form {
 .photo {
   width: 300px;
   padding: 10px;
+  border-radius: 35px;
 }
 
 /* responsive */
@@ -116,8 +117,9 @@ form {
     font-size: 20px;
   }
   .photo {
-    width: 700px;
-    padding: 10px 50px;
+    width: 500px;
+    padding: 10px 10px;
+    border-radius: 55px;
   }
 
   .photo-education {
